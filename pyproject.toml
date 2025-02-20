@@ -1,0 +1,30 @@
+[project]
+name = "micro-sip-nextcloud-bridge"
+version = "0.1.0"
+description = "A Bridge between MicroSip and Nextcloud."
+authors = [
+    {name = "Julius Koenig", email = "info@bastelquartier.de"},
+]
+dependencies = ["wiederverwendbar[rich]>=0.7.2", "requests>=2.32.3", "auto-py-to-exe>=2.45.1", "vobject>=0.9.9"]
+requires-python = ">=3.11,<3.12"
+readme = "README.md"
+license = {text = "GPL-3.0"}
+
+[project.scripts]
+micro-sip-nextcloud-bridge = "micro_sip_nextcloud_bridge.__main__:main"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.version]
+source = "file"
+path = "src/micro_sip_nextcloud_bridge/__init__.py"
+
+[tool.pdm.scripts]
+push-tags = { shell = "git push origin --tags" }
+build = { shell = "auto-py-to-exe -c build.json -lang de" }
+
