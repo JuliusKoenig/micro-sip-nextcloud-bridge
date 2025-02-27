@@ -1,4 +1,4 @@
-__title__ = "MicroSIP Nextcloud Bridge"
+__title__ = "MicroSIP Nextcloud Bridge - Server"
 __description__ = "A Bridge between MicroSip and Nextcloud."
 __version__ = "0.1.0"
 __author__ = "Julius Koenig"
