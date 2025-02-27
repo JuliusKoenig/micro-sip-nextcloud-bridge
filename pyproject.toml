@@ -5,10 +5,10 @@ description = "A Bridge between MicroSip and Nextcloud."
 authors = [
     { name = "Julius Koenig", email = "info@bastelquartier.de" },
 ]
-dependencies = ["wiederverwendbar[uvicorn]>=0.7.3", "fastapi>=0.115.8", "requests>=2.32.3", "vobject>=0.9.9"]
+dependencies = ["wiederverwendbar[uvicorn]>=0.7.3", "fastapi>=0.115.9", "requests>=2.32.3", "vobject>=0.9.9"]
 requires-python = ">=3.12"
 readme = "README.md"
-license = { text = "GPL-3.0" }
+license = { file = "LICENSE" }
 
 [project.scripts]
 micro-sip-nextcloud-bridge-server = "micro_sip_nextcloud_bridge.__main__:main"
