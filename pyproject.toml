@@ -1,6 +1,5 @@
 [project]
 name = "micro-sip-nextcloud-bridge"
-version = "0.1.0"
 description = "A Bridge between MicroSip and Nextcloud."
 authors = [
     { name = "Julius Koenig", email = "info@bastelquartier.de" },
