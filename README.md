@@ -31,7 +31,7 @@ Then choose the option that suits you best.
 ```
 * Use Docker:
 ``` bash
-  docker run -p 8123:8123 --env-file=config.env micro-sip-nextcloud-bridge
+  docker run -p 8123:8123 --env-file=config.env lolexplain/micro-sip-nextcloud-bridge
 ```
 * Use source code with pip:
 ``` bash
