@@ -47,6 +47,7 @@ Then choose the option that suits you best.
   docker run -p 8123:8123 --env-file=config.env micro-sip-nextcloud-bridge
 ```
 Once the micro-sip-nextcloud-bridge has been successfully started, only the user directory needs to be stored.
+
 ![Step 1](docs/step1.png)
 ![Step 2](docs/step2.png)
 
