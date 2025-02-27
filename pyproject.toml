@@ -24,3 +24,6 @@ distribution = true
 source = "file"
 path = "src/micro_sip_nextcloud_bridge/__init__.py"
 
+[tool.pdm.scripts]
+push-tags = { shell = "git push origin --tags" }
+
