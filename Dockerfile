@@ -12,4 +12,4 @@ WORKDIR /app
 
 RUN pip install -e .
 
-CMD ["micro-sip-nextcloud-bridge-server"]
+CMD ["micro-sip-nextcloud-bridge"]

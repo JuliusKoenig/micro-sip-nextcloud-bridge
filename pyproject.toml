@@ -14,7 +14,7 @@ license = { file = "LICENSE" }
 homepage = "https://github.com/JuliusKoenig/micro-sip-nextcloud-bridge"
 
 [project.scripts]
-micro-sip-nextcloud-bridge-server = "micro_sip_nextcloud_bridge.__main__:main"
+micro-sip-nextcloud-bridge = "micro_sip_nextcloud_bridge.__main__:main"
 
 [build-system]
 requires = ["pdm-backend"]
