@@ -10,6 +10,9 @@ requires-python = ">=3.12"
 readme = "README.md"
 license = { file = "LICENSE" }
 
+[project.urls]
+homepage = "https://github.com/JuliusKoenig/micro-sip-nextcloud-bridge"
+
 [project.scripts]
 micro-sip-nextcloud-bridge-server = "micro_sip_nextcloud_bridge.__main__:main"
 
